@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color:grey;
+    font-family:'roboto';
+}
+.container{
+    max-width:1000px;
+    background-color: rgba(54, 195, 130, 0.657);
+    margin:0 auto;
+    padding:20px;
+}
+.profile{
+    height:100px;
+    width:100px;
+    border:2px solid white;
+    border-radius:50%;
+    margin-left:100px;
+    float:left;
+}
+.font{
+    float:right;
+    margin-right:350px;
+    text-align:center;
+    padding:20px;
+}
+.clear{
+    clear:both;
+}
+hr{
+    border:2px solid black;
+    margin:20px auto;
+}
+.content a{
+    padding:10px;
+    text-decoration:none;
+    font-weight:bold;
+    color:rgb(65, 12, 97)
+}
+.content a:hover{
+    color:tomato;
+    text-decoration:underline;
+}
+.left{
+    width:25%;
+    float:left;
+    background-color:rgb(166, 217, 233);
+    color:rgb(24, 13, 13);
+    padding:10px 30px 10px 5px
+}
+.right{
+    width:70%;
+    float:left;
+}
+.right p{
+    margin-left:40px;
+}
+
+
+.right h2{
+    margin-top:20px;
+    margin-left:40px;
+    margin-bottom:20px;
+}
+p{
+    text-align:justify;
+}
+.color{
+    background-color:rgb(167, 149, 15);
+    margin-bottom:20px;
+}
+li{
+    margin:20px;
+    font-weight:bold;
+}
+.ref-left{
+    width:40%;
+    float:left;
+}
+.ref-right{
+    padding-top:67px;
+    width:40%;
+    float:left;
+}
+.copy{
+    text-align:center;
+}
